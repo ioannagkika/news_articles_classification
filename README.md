@@ -12,13 +12,7 @@ This is the dockerized version of the news articles classifier model that serves
 
 ## Instructions
 
-1. Clone the repo locally using the command 
-
-```bash
-gh repo clone ioannagkika/news_articles_classification
-```
-
-or just download the current folder.
+1. Clone the repo locally or just download the current folder.
 
 2. Download the the weighs of the pre-trained model (filename: model-004.h5) and the label encoder (filename:label_encoder.pkl) from [Google Drive](https://drive.google.com/drive/folders/1B1r0_WMrFG7YUZNkghmABq2kqxS3_I3o?usp=sharing) and place them into the same folder (dockerized_model).
 

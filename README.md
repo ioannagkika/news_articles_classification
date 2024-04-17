@@ -1,3 +1,11 @@
+# News Articles Classification
+
+This folder contains distilbert fine-tuned for classifying news articles. The model has been fine-tuned using the News Category Dataset dataset from [Kaggle](https://www.kaggle.com/datasets/rmisra/news-category-dataset).
+
+The code of the report was developed in Google Colab.
+
+You can download the the weights of the pre-trained model (filename: model-004.h5) and the label encoder (filename:label_encoder.pkl) from [Google Drive](https://drive.google.com/drive/folders/1B1r0_WMrFG7YUZNkghmABq2kqxS3_I3o?usp=sharing). 
+
 # Dockerized Model
 
 This is the dockerized version of the news articles classifier model that serves an HTTP API.

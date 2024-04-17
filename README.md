@@ -35,11 +35,11 @@ Now the container is up and running and our model is ready to receive requests
 5. Open an new terminal and send a curl request. An example is the following
 
 ```bash
-curl -X POST   http://0.0.0.0:5000/predict   -H 'Content-Type: application/json'   -d '{"text": "Lady gaga was awesome lol!"}'
+curl -X POST http://0.0.0.0:5000/predict -H 'Content-Type: application/json' -d '{"text": "Messi did not score today"}'
 ```
 
 Note that the model receives requests in a json format with the structure: 
-{"text": "Culture is always important."}, where text is the joined title and content of an article
+{"text": "Messi did not score today"}, where text is the joined headline and content of an article
 and outputs messages in a json format with the structure:
-{"label": "Culture", "confidence": 0.8, "version": "0.0.1"}
+{"label": "SPORTS", "confidence": 0.99, "version": "0.0.1"}
 where the predicted_label is a string containing the predicted by the model label, the confidence_of_prediction is a float containing the confidence of the prediction of the model and "version" is a string containing the version of the model (currently 0.0.1)

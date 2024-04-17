@@ -8,7 +8,7 @@ You can download the the weights of the pre-trained model (filename: model-004.h
 
 # Dockerized Model
 
-This is the dockerized version of the news articles classifier model that serves an HTTP API.
+In the dockerized_model folder you will find the dockerized version of the news articles classifier model that serves an HTTP API.
 
 ## Instructions
 
